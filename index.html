@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Just Booth It! — Photo Booth Rental | Every Party Could Use a Booth</title>
+  <meta name="description" content="Just Booth It! — a throwback photo booth experience that never goes out of style. Unlimited photos, custom strips, instant prints & digital copies for parties, weddings, birthdays & corporate events. Bookings now open." />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Club light overlays -->
+  <div class="fx-layer" aria-hidden="true">
+    <div class="strobe"></div>
+    <div class="lasers">
+      <span class="laser l1"></span>
+      <span class="laser l2"></span>
+      <span class="laser l3"></span>
+      <span class="laser l4"></span>
+      <span class="laser l5"></span>
+    </div>
+    <div class="spotlight"></div>
+    <div class="grain"></div>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand">
+      <img src="assets/logo.jpg" alt="Just Booth It logo" />
+      <span>Just Booth It!</span>
+    </a>
+    <nav class="nav__links">
+      <a href="#whatyouget">What You Get</a>
+      <a href="#perfect">Perfect For</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#book" class="nav__cta">Book Now</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <video class="hero__video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+      <source src="assets/hero.mp4" type="video/mp4" />
+    </video>
+    <div class="hero__scrim"></div>
+
+    <div class="hero__content reveal">
+      <p class="hero__eyebrow">Classic vibes. Timeless memories.</p>
+      <h1 class="hero__title">A throwback photo booth experience that <span>never goes out of style</span></h1>
+      <p class="hero__sub">Strike a pose, grab a prop, and <b>Just Booth It!</b></p>
+      <div class="hero__actions">
+        <a href="#book" class="btn btn--primary">📸 Book Your Event</a>
+        <a href="#whatyouget" class="btn btn--ghost">See What You Get</a>
+      </div>
+      <div class="hero__badge">✅ Bookings now open — subject to availability</div>
+    </div>
+
+    <a href="#whatyouget" class="hero__scroll" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Strike a pose ✦ Grab a prop ✦ Just Booth It! ✦ Every party could use a booth ✦ </span>
+      <span>Strike a pose ✦ Grab a prop ✦ Just Booth It! ✦ Every party could use a booth ✦ </span>
+    </div>
+  </div>
+
+  <!-- WHAT YOU GET -->
+  <section class="section" id="whatyouget">
+    <div class="section__head reveal">
+      <p class="kicker">✨ What You Get ✨</p>
+      <h2 class="h2">Everything you need to <span class="glow">light up the party</span></h2>
+    </div>
+
+    <div class="cards">
+      <article class="card reveal" data-tilt>
+        <div class="card__icon"><img src="assets/get-photos.png" alt="" /></div>
+        <h3>Unlimited Photos</h3>
+        <p>Snap as many as you like within your chosen time frame — no limits, all night long.</p>
+      </article>
+      <article class="card reveal" data-tilt>
+        <div class="card__icon"><img src="assets/get-strips.png" alt="" /></div>
+        <h3>Custom Photo Strips</h3>
+        <p>Photo strips designed just for your event, your theme, your vibe.</p>
+      </article>
+      <article class="card reveal" data-tilt>
+        <div class="card__icon"><img src="assets/get-instant.png" alt="" /></div>
+        <h3>Instant Prints</h3>
+        <p>Fresh prints handed to your guests right there at the event.</p>
+      </article>
+      <article class="card reveal" data-tilt>
+        <div class="card__icon"><img src="assets/get-digital.png" alt="" /></div>
+        <h3>Digital Copies</h3>
+        <p>All your snaps sent digitally afterward so the memories never fade.</p>
+      </article>
+      <article class="card reveal" data-tilt>
+        <div class="card__icon"><img src="assets/get-props.png" alt="" /></div>
+        <h3>Fun Props Galore</h3>
+        <p>A wide variety of hats, glasses, signs & silliness to spark the perfect pose.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PERFECT FOR -->
+  <section class="section perfect" id="perfect">
+    <div class="section__head reveal">
+      <p class="kicker">🎉 Perfect For 🎉</p>
+      <h2 class="h2">Any occasion worth <span class="glow">remembering</span></h2>
+    </div>
+    <div class="perfect__grid">
+      <div class="occ reveal"><img src="assets/occ-party.png" alt="" /><h3>Parties</h3></div>
+      <div class="occ reveal"><img src="assets/occ-wedding.png" alt="" /><h3>Weddings</h3></div>
+      <div class="occ reveal"><img src="assets/occ-birthday.png" alt="" /><h3>Birthdays</h3></div>
+      <div class="occ reveal"><img src="assets/occ-corporate.png" alt="" /><h3>Corporate</h3></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="section__head reveal">
+      <p class="kicker">🖤 The Memories 🖤</p>
+      <h2 class="h2">Real strips. <span class="glow">Real fun.</span></h2>
+      <p class="lede">Every strip tells a story. Yours is next.</p>
+    </div>
+    <div class="gallery__stage">
+      <img class="gallery__strips parallax" data-speed="0.15" src="assets/strips.png" alt="Photo booth strips of guests posing" />
+      <div class="gallery__glow"></div>
+    </div>
+  </section>
+
+  <!-- BOOK / CONTACT -->
+  <section class="section book" id="book">
+    <div class="book__inner reveal">
+      <p class="kicker">📍 Bookings Now Open</p>
+      <h2 class="h2">Ready to <span class="glow">Just Booth It?</span></h2>
+      <p class="lede">Lock in your date and let's make your event unforgettable. All bookings subject to availability.</p>
+
+      <div class="book__contacts">
+        <a class="contact" href="tel:+27671551393">
+          <span class="contact__ic">📞</span>
+          <span class="contact__t"><small>Call or WhatsApp</small><b>+27 67 155 1393</b></span>
+        </a>
+        <a class="contact" href="tel:+27610204212">
+          <span class="contact__ic">📱</span>
+          <span class="contact__t"><small>Alternate line</small><b>+27 61 020 4212</b></span>
+        </a>
+        <a class="contact" href="mailto:justboothitsa@gmail.com">
+          <span class="contact__ic">📧</span>
+          <span class="contact__t"><small>Email us</small><b>justboothitsa@gmail.com</b></span>
+        </a>
+      </div>
+
+      <a href="mailto:justboothitsa@gmail.com?subject=Photo%20Booth%20Booking%20Enquiry" class="btn btn--primary btn--big">🎉 Enquire &amp; Book Your Date</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <img src="assets/logo.jpg" alt="Just Booth It" class="footer__logo" />
+    <p class="footer__tag">Every party could use a booth.</p>
+    <p class="footer__copy">© <span id="year"></span> Just Booth It! · South Africa · All bookings subject to availability.</p>
+    <p class="footer__credit">Designed by <b>Obsidian Studio Designs</b> · <a href="tel:+27769874432">076 987 4432</a> · <a href="mailto:obsidianstudiodesigns@gmail.com">obsidianstudiodesigns@gmail.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

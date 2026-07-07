@@ -1,0 +1,13 @@
+# Raw source assets (not needed for the live site) — anchored to repo root
+/Landing page.mp4
+/LOGO.jpg
+/Photobooth images.png
+/Perfect For.png
+/What You Get.png
+/Gemini_Generated_Image_*.png
+/assets/logo-full.png
+
+# Editor / tooling
+.claude/
+.DS_Store
+Thumbs.db
